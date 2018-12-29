@@ -101,7 +101,7 @@ Cosmological observations are promising ways to improve our understandings of th
 \end{abstract}
 
 % insert suggested PACS numbers in braces on next line
-\pacs{}
+\pacs{98.80.-k}
 % insert suggested keywords - APS authors don't need to do this
 %\keywords{}
 
@@ -114,27 +114,31 @@ The flavour oscillation experiments \citep{2002PhRvL..89a1301A} discovered the m
 splittings of neutrinos and placed a lower bound of the sum of their mass 
 $M_\nu \equiv \sum_{i=1}^3 m_{\nu_i} \gtrsim$ 0.05 eV \citep{2014ChPhC..38i0001O}. 
 The existence of neutrino mass has profound impacts on cosmic evolution, and the current cosmic microwave background observations provide an 
-upper bound of $M_\nu\lesssim 0.23$ eV \citep{2016A&A...594A..13P}. 
-In the cosmic structure formation, neutrinos are non-relativistic, 
-and contribute to the matter energy density $\Omega_m$. 
+upper bound of \tcb{ $M_\nu\lesssim 0.12$ eV \citep{2018arXiv180706209P}}. 
+\tcb{At low redshifts, neutrinos become non-relativistic,} 
+and contribute to the matter energy density $\Omega_m$ in the structure formation. 
 Unlike the majority of matter, the cold dark matter (CDM) and baryons, 
 neutrinos maintain a high velocity dispersion, 
-known as ``free-streaming'', which reduces their gravitational collapse on small scales. 
+referred to as ``free-streaming'', which reduces their gravitational collapse on small scales. 
 A number of large scale structure (LSS) surveys \citep{2011arXiv1110.3193L,2015AAS...22533605E}
 %(such as Euclid \cite{2011arXiv1110.3193L},
 %LSST \cite{2009arXiv0912.0201L}, eBOSS \cite{2016AJ....151...44D}, WFIRST\cite{2012SPIE.8442E..1UG}, 
 %and DESI \cite{2015AAS...22533605E})
-will improve this upper bound using neutrino effects on LSS, 
-however we usually encounter difficulties in disentangling neutrino effects from other parameters, 
+plan to improve this upper bound using neutrino effects on LSS,
+however we usually encounter difficulties in disentangling it from other non-gravitational effects, 
 and in understanding halo bias and cosmic variance. 
-Recently, new nonlinear neutrinos effects on LSS are proposed to give independent measurements on neutrino mass \citep{2014PhRvL.113m1301Z,2016PhRvL.116n1301Z,2017NatAs...1E.143Y}. 
-For these effects one needs to carefully separate and exclude the contaminations from non-gravitational contributions. 
-The only clean, gravitational-only neutrino effect on LSS is the damping of weak gravitational lensing power spectrum \cite{2011arXiv1110.3193L}. 
-However the amount of information and constraining power of the lensing is limited by the projection onto the 2-dimensional sky. 
+\tcb{Thus most popular cosmological neutrino mass measurements are not proven to work.
+For example, although the neutrino effect on weak lensing power spectrum \citep{2011arXiv1110.3193L} uses pure gravity, 
+there are a large set of systematics affecting the observations and unclear baryonic effects that can contaminate the neutrino signal.}
+Besides, the amount of information and constraining power of the lensing is limited by the projection onto the 2-dimensional sky. 
 Is there a 3-dimensional measure that is cleanly gravity-driven, to measure the neutrino mass?
+%Many new neutrino effects on LSS are proposed \citep{2014PhRvL.113m1301Z, 2016PhRvL.116n1301Z, 2017NatAs...1E.143Y}.
+
+
+
 
 The angular momentum direction of galaxies. 
-The direction of angular momentum (hereafter spin) is readily observable, while the magnitude is not. 
+The \tcb{\it direction} of angular momentum (hereafter \tcb{\it spin}) is readily observable, while the magnitude is not. 
 Majority of galaxies are disk galaxies, and the rotation axis is perpendicular to the disk \citep{1998MNRAS.297L..71M}. 
 The orientation of the disk is obtained by inclination and parallactic angles (parity-even) and dust absorption, and from the Doppler effect of spectral lines we determine the plus-minus sign of the spin, which is parity-odd.
 A parity-odd spin measurement cannot be contaminated by the linear perturbation theory. 
@@ -142,7 +146,11 @@ Only gravity affects spin statistics of halos or galaxies at large separations, 
 
 We present the neutrino torque effect, to modulate the spin of dark matter halos.
 Here we use halos to represent galaxies.
-The galaxy spin can be observed to a much larger radii through the radio emission of the gas, and the spin change only very modestly to larger radii. This suggests that the spins of a galaxy and the whole halo are well correlated.
+The galaxy spin can be observed to a much larger radii through the radio emission of the gas, and the spin change only very modestly to larger radii \citep{wiki:Galaxy_rotation_curve}. 
+\tcb{Recent hydrodynamic galaxy formation simulations suggest that, although uncorrelated in amplitude, the spin directions of stellar, 
+cold gas components and CDM halo are strongly correlated (e.g. section 4.2 of \citep{2018arXiv180407306J}). 
+%In galaxy clusters, central galaxies and satellites are also found to be aligned with halos \citep{2016MNRAS.460.3772S}.
+}
 
 \textit{Theory.---}
 In the picture of LSS formation, gravitational instability lets initial density fluctuations form dark matter halos, where galaxies are embedded.
@@ -168,12 +176,17 @@ the misalignment between $\I_q$ and $\T_c$. Here, $\I_q$ and $\T_c$ are parity-e
 In linear perturbation theory, $\phi_c$ remains constant, so $\T_c$ decays as $a^{-2}$ due to the cosmic expansion, where $a$ is the scale factor.
 %\footnote{$\phi_c(q,t)=\phi_c(q,t=0)$, $x=aq$, so $T_{x}=\partial^2_{x}\phi_c=\frac{1}{a^2}\partial^2_q\phi_c\propto\frac{1}{a^2}$.}
 Also, the protohalo shrinks in size and turns more spherical in shape.
-A decayed tidal field is hard to torque small and round objects, so the spin are expected to be contributed mostly in the linear regime.
-These concepts can be straightforwardly tested in numerical simulations. 
-In Lagrangian space, CDM and baryonic matter are torqued by the same gravitational shear, so the spin direction is not affected by baryonic effects. 
-If a halo has a merging history, it simply collects disconnected regions in Lagrangian space but conserves their total spin. 
+A decayed tidal field is hard to torque small and round objects, so the spin are expected to be contributed mostly in the linear regime \citep{2002MNRAS.332..325P}.
+If a halo has a merging history, it simply collects disconnected regions in Lagrangian space but conserves their total spin.
+These concepts can be straightforwardly tested in $N$-body simulations.
 
-Massive neutrinos contribute sub-percent fraction of the matter ingredient, and their unique spatial distribution and evolution should contribute a unique torque to halos and galaxies.
+In Lagrangian space, CDM and baryonic matter are torqued by the same gravitational shear, so 
+\tcb{their subsequent local evolution should not systematically change their respective spin directions.
+For example, baryonic feedback has to conserve angular momentum, unless the baryons are expelled from the galaxy and carry angular momentum away systematically.
+The dynamical friction between baryons and dark matter can only increase the angular momentum correlation.
+These all indicate a high correlation between CDM and baryons (e.g. \citep{2018arXiv180407306J}).} 
+ 
+Massive neutrinos contribute sub-percent fraction of the matter ingredient, and their unique spatial distribution and evolution should contribute a unique torque to \tcb{CDM and baryons}.
 In particular, neutrino density field traces CDM on large scales while their small scale structures are smoothed out by their free-streaming. 
 They contribute a predictable tidal tensor $\T_\nu(m_{\nu_i})$ depending on the their mass \citep{2015PhRvD..92b3502I}. 
 The interplay between $\I_q$ and $\T_\nu$ leads to an additional neutrino torque $\spin^T_\nu\propto\bs{\epsilon}\,\I_q\,\T_\nu$.
@@ -182,8 +195,9 @@ Integrated it over the cosmic evolution, we denote the total neutrino modulation
 %\spin^I_{\nu 0}=\int a(\tau)D(\tau)\bs{\epsilon}\I(\tau)\T_\nu(\tau)\diff\tau.
 %\end{equation}
 %Here, $\tau$ is the Newtonian time, $D(\tau)$ is the growth factor, and other quantities are functions of time.
-
-
+\tcb{
+This torque is unique in that, the neutrino free-streaming scale is much larger than the scale to which local nonlinear and baryonic effects can systematically contribute.
+}
 
 
 
@@ -251,24 +265,36 @@ From simulations, we estimate the magnitude of integrated neutrino torque $\left
 Measured from simulations, the cross-correlation between $\bs{\epsilon}\,\I_R\T_\nu$ and $\spin^T_{\nu 0}$ is about $\mu=0.19$ (see Appendix \ref{app.I}). We then need $5\times 10^9$ halos to have a $5\sigma$ detection (see Appendix \ref{app.error}). If we improve the reconstruction of $\I_R$ from studying the cosmic evolution history \citep{2014ApJ...794...94W}, the lower limit of required halos is $2\times 10^8$.
 
 \textit{Discussion.---}
+\tcb{
+We proposed a new approach to measure the neutrino mass that has not been considered before. 
+The applicability relies on the new research studies on the angular momentum connection.
+Galaxy formation simulations like \cite{2018arXiv180407306J,2016MNRAS.460.3772S} are needed to study the Lagrangian spin correlations for baryons, 
+despite that combining \cite{2018arXiv180407306J} and our result already implies a strong correlation. 
+%For galaxy clusters, the correlation between minor axes in \cite{2016MNRAS.460.3772S} also implies the correlation between spins. After all, however, since most galaxies are not in clusters so the contribution of clusters is not a major effect.
+We do not propose to use galaxies in clusters, and most spiral galaxies are not in clusters.
+}
+
 We found that the cross-correlation coefficients between $\spin_0$ and initial values $\spin_L$ and $\spin_T$ are prominently higher than our previous understandings (e.g. \citep{2000ApJ...532L...5L}). 
 We carefully investigate the numerical errors that may affect the results. 
 P3M (particle-particle particle-mesh) algorithms result in higher cross-correlation between initial and final spins, compared to PM (particle-mesh), where additional tangential forces in PM violate the angular momentum conservation. 
 Higher mass halos in a given simulation generally have slightly higher cross-correlations between initial and final spins, however the correlation is enhanced as we use higher mass resolutions. 
 All other cross-correlation measurements have only weak dependencies on the halo mass, even in a fixed simulation. 
 With different box sizes, mass resolutions, force resolutions, we find that the results are consistent across these simulations. 
-The estimation of number of halo spins needed to detect the neutrino torque depends on $\mu=0.19$. This has a very weak dependence on halo mass and configuration of the simulation. An accurate study of the neutrino torque requires mass and force resolutions to cover the wide range of halo mass, a large box size ($>600\,{\rm Mpc}/h$) to account the neutrino tides at distance, and neutrino particles/fluids, further studies of reconstruction of $\I_R$ (Appendix \ref{app.I}) to calculate more precise nonlinear neutrino effects on an evolving halo. These require future simulations with computing power comparable to that of TianNu \citep{2017RAA....17...85E}.
+The estimation of number of halo spins needed to detect the neutrino torque depends on $\mu=0.19$. This has a very weak dependence on halo mass and configuration of the simulation. An accurate study of the neutrino torque requires mass and force resolutions to cover the wide range of halo mass, a large box size ($>600\,{\rm Mpc}/h$) to account the neutrino tides at distance, and neutrino particles/fluids, further studies of reconstruction of $\I_R$ (Appendix \ref{app.I}) to calculate more precise nonlinear neutrino effects on an evolving halo. These require future simulations with computing power comparable to that of TianNu \citep{2017NatAs...1E.143Y,2017RAA....17...85E}.
 
 Surveys like the Hubble Sphere Hydrogen Survey (HSHS) \citep{2006astro.ph..6104P} or a modified 21cm Cosmic Vision \citep{2018arXiv180207216D} are able to observe order of $10^9$ HI galaxies ($>10^{12}M_\odot$), 
 in a cosmic volume $(4{\rm Gpc}/h)^3$ below redshift $z\simeq 1$ \citep{2004MNRAS.350.1210Z}. 
 Under the standard model of the Universe with $M_\nu=0.05$ eV, a $5\sigma$ detection will be reachable.
-Beyond standard models, e.g., the neutrino mass could be generated by a gravitational $\theta$-term condensation as the source of dark energy \citep{2016PhRvD..93k3002D}, the tidal torque history will be different, and we need different numbers of galaxies to differentiate between these models.
+Beyond standard models, e.g., the neutrino mass could be
+generated through a neutrino vacuum condensate triggered by a gravitational $\theta$-term
+\citep{2016PhRvD..93k3002D}, the tidal torque history will be different, 
+and we need different numbers of galaxies to differentiate between these models.
 
 %Codis \citep{2018MNRAS.tmp.2447C}.
 
 \textit{Conclusion.---}
 Enormous efforts has been contributed to the neutrino mass properties.
-Radio astronomic and cosmological surveys are promising low-cost experiments implemented in the Universe to probe basic physic mysteries. 
+Radio astronomic and cosmological surveys are promising low-cost experiments implemented in the Universe to probe basic physics mysteries. 
 The angular momentum is a 3-dimensional, gravity-driven, parity-odd measure, 
 and is readily observable, well modeled by the tidal torque theory, and well conserved over the cosmic evolution.
 It contains comparable amount of information as density field but poorly appreciated in application.
@@ -277,6 +303,8 @@ to accurately reconstruct the neutrino torque effects,
 and to unveil the neutrino mass properties in upcoming galaxy surveys.
 
 \textit{Acknowledgments.---}
+\tcb{We thank the anonymous referee who gives valuable comments which improved this letter.} 
+HRY thanks Derek Inman, Yipeng Jing, Pengjie Zhang and Jiaxin Han for helpful comments and suggestions.
 We acknowledge funding from NSERC.
 The simulations were performed on the Sunnyvale cluster at CITA and on the Niagara supercomputer at the SciNet HPC Consortium.
 

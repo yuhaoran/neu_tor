@@ -2,15 +2,15 @@
 
 \bibitem{2002PhRvL..89a1301A}
 Q.~R. {Ahmad} {\em et~al.},
-\newblock \prl,  {\bf 89}, 011301 (2002).
+\newblock \prl {\bf 89}, 011301 (2002).
 
 \bibitem{2014ChPhC..38i0001O}
 K.~A. {Olive} and {Particle Data Group},
-\newblock Chinese Physics C, {\bf 38}, 090001 (2014).
+\newblock Chinese Physics C {\bf 38}, 090001 (2014).
 
-\bibitem{2016A&A...594A..13P}
-P.~A.~R. {Ade} {\em et~al.},
-\newblock \aap, {\bf 594}, A13 (2016).
+\bibitem{2018arXiv180706209P}
+{Planck Collaboration} {\em et~al.},
+\newblock arXiv e-prints , arXiv:1807.06209 (2018), 1807.06209.
 
 \bibitem{2011arXiv1110.3193L}
 R.~{Laureijs} {\em et~al.},
@@ -23,85 +23,94 @@ D.~{Eisenstein} and {DESI Collaboration},
 \newblock in {\em American Astronomical Society Meeting Abstracts}, volume 225
   of {\em American Astronomical Society Meeting Abstracts}, p. 336.05, 2015.
 
-\bibitem{2014PhRvL.113m1301Z}
-H.-M. {Zhu}, U.-L. {Pen}, X.~{Chen}, D.~{Inman}, and Y.~{Yu},
-\newblock \prl, {\bf 113}, 131301 (2014), 1311.3422.
-
-\bibitem{2016PhRvL.116n1301Z}
-H.-M. {Zhu}, U.-L. {Pen}, X.~{Chen}, and D.~{Inman},
-\newblock \prl, {\bf 116}, 141301 (2016), 1412.1660.
-
-\bibitem{2017NatAs...1E.143Y}
-H.-R. {Yu} {\em et~al.},
-\newblock Nature Astronomy, {\bf 1}, 0143 (2017).
-
 \bibitem{1998MNRAS.297L..71M}
 S.~{Mao}, H.~J. {Mo}, and S.~D.~M. {White},
-\newblock \mnras, {\bf 297}, L71 (1998).
+\newblock \mnras {\bf 297}, L71 (1998).
+
+\bibitem{wiki:Galaxy_rotation_curve}
+Wikipedia,
+\newblock {Galaxy rotation curve} --- {W}ikipedia{,} the free encyclopedia,
+  2018.
+
+\bibitem{2018arXiv180407306J}
+F.~{Jiang} {\em et~al.},
+\newblock ArXiv e-prints  (2018), 1804.07306.
 
 \bibitem{1984ApJ...286...38W}
 S.~D.~M. {White},
-\newblock \apj, {\bf 286}, 38 (1984).
+\newblock \apj {\bf 286}, 38 (1984).
+
+\bibitem{2002MNRAS.332..325P}
+C.~{Porciani}, A.~{Dekel}, and Y.~{Hoffman},
+\newblock \mnras {\bf 332}, 325 (2002), astro-ph/0105123.
 
 \bibitem{2015PhRvD..92b3502I}
 D.~{Inman} {\em et~al.},
-\newblock \prd, {\bf 92}, 023502 (2015), 1503.07480.
+\newblock \prd {\bf 92}, 023502 (2015), 1503.07480.
 
 \bibitem{2017ApJ...847..110Y}
 Y.~{Yu}, H.-M. {Zhu}, and U.-L. {Pen},
-\newblock \apj, {\bf 847}, 110 (2017).
+\newblock \apj {\bf 847}, 110 (2017).
 
 \bibitem{2000ApJ...532L...5L}
 J.~{Lee} and U.-L. {Pen},
-\newblock \apj, {\bf 532}, L5 (2000), astro-ph/9911328.
+\newblock \apj {\bf 532}, L5 (2000), astro-ph/9911328.
 
 \bibitem{2001ApJ...555..106L}
 J.~{Lee} and U.-L. {Pen},
-\newblock \apj, {\bf 555}, 106 (2001), astro-ph/0008135.
+\newblock \apj {\bf 555}, 106 (2001), astro-ph/0008135.
 
 \bibitem{2017PhRvD..96l3502Z}
 H.-M. {Zhu}, Y.~{Yu}, U.-L. {Pen}, X.~{Chen}, and H.-R. {Yu},
-\newblock \prd, {\bf 96}, 123502 (2017).
+\newblock \prd {\bf 96}, 123502 (2017).
 
 \bibitem{2017MNRAS.469.1968P}
 Q.~{Pan}, U.-L. {Pen}, D.~{Inman}, and H.-R. {Yu},
-\newblock \mnras, {\bf 469}, 1968 (2017), 1611.10013.
+\newblock \mnras {\bf 469}, 1968 (2017), 1611.10013.
 
 \bibitem{2017PhRvD..95d3501Y}
 H.-R. {Yu}, U.-L. {Pen}, and H.-M. {Zhu},
-\newblock \prd, {\bf 95}, 043501 (2017), 1610.07112.
+\newblock \prd {\bf 95}, 043501 (2017), 1610.07112.
 
 \bibitem{2014ApJ...794...94W}
 H.~{Wang}, H.~J. {Mo}, X.~{Yang}, Y.~P. {Jing}, and W.~P. {Lin},
-\newblock \apj, {\bf 794}, 94 (2014), 1407.3451.
+\newblock \apj {\bf 794}, 94 (2014), 1407.3451.
 
 \bibitem{2018ApJS..237...24Y}
 H.-R. {Yu}, U.-L. {Pen}, and X.~{Wang},
-\newblock The Astrophysical Journal Supplement Series, {\bf 237}, 24 (2018).
+\newblock The Astrophysical Journal Supplement Series {\bf 237}, 24 (2018).
 
 \bibitem{2012MNRAS.420.2551B}
 S.~{Bird}, M.~{Viel}, and M.~G. {Haehnelt},
-\newblock \mnras, {\bf 420}, 2551 (2012), 1109.4416.
+\newblock \mnras {\bf 420}, 2551 (2012), 1109.4416.
+
+\bibitem{2016MNRAS.460.3772S}
+S.~{Shao} {\em et~al.},
+\newblock \mnras {\bf 460}, 3772 (2016), 1605.01728.
+
+\bibitem{2017NatAs...1E.143Y}
+H.-R. {Yu} {\em et~al.},
+\newblock Nature Astronomy {\bf 1}, 0143 (2017).
 
 \bibitem{2017RAA....17...85E}
 J.~D. {Emberson} {\em et~al.},
-\newblock Research in Astronomy and Astrophysics, {\bf 17}, 085 (2017),
+\newblock Research in Astronomy and Astrophysics {\bf 17}, 085 (2017),
   1611.01545.
 
 \bibitem{2006astro.ph..6104P}
 J.~B. {Peterson}, K.~{Bandura}, and U.~L. {Pen},
-\newblock ArXiv e-prints, astro (2006), astro-ph/0606104.
+\newblock ArXiv e-prints , astro (2006), astro-ph/0606104.
 
 \bibitem{2018arXiv180207216D}
 K.~{Dawson} {\em et~al.},
-\newblock ArXiv e-prints, arXiv:1802.07216 (2018), 1802.07216.
+\newblock ArXiv e-prints , arXiv:1802.07216 (2018), 1802.07216.
 
 \bibitem{2004MNRAS.350.1210Z}
 M.~A. {Zwaan} {\em et~al.},
-\newblock \mnras, {\bf 350}, 1210 (2004), astro-ph/0406380.
+\newblock \mnras {\bf 350}, 1210 (2004), astro-ph/0406380.
 
 \bibitem{2016PhRvD..93k3002D}
 G.~{Dvali} and L.~{Funcke},
-\newblock \prd, {\bf 93}, 113002 (2016).
+\newblock \prd {\bf 93}, 113002 (2016).
 
 \end{thebibliography}

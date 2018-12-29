@@ -1,0 +1,98 @@
+Reply to the referee
+
+----------------------------------------------------------------------
+Report of Referee A -- LX16362/Yu
+----------------------------------------------------------------------
+
+Major comments:
+
+My biggest concern with this work is that I think the authors need to
+assume that the angular momentum of galaxies traces the angular
+momentum of halos. I have done a quick search in the literature and
+found 1804.07306, where in Fig. 2 I can see a large scatter between
+the spin of galaxies and the spin of their host halos. The authors
+need to address this point in detail and explain how they will
+distinguish the expected small neutrino angular momentum contribution
+from the underlying scatter.
+
+>> Answer:
+We agree that the spin connection between galaxies and halos is an important concern. Most literature study the alignment of shapes, or only the amplitude of the angular momentum. Most parts of 1804.07306 focus on the ‘amplitude’ of the angular momentum.
+In 1804.07306, is says “It is intriguing that the amplitudes of spins are uncorrelated although the alignment of the spin vectors is relatively good”. In Fig. 2 of 1804.07306, it shows the correlation between angular momentum ‘amplitudes’, not the correlation between ‘directions’. In 1804.07306, Section 4.2, 5.2 and Figure 4, 7 discussed the spin ‘direction’ correlations, and their most important conclusion is that “the median cos\theta_{gas,halo} is 0.71 to 0.73”. This suggests a lower limit of the spin direction correlation between DM halos and baryons, since in higher resolution simulations the angular momentum direction is better conserved. Although 1804.07306 did not study the Eulerian-Lagrangian spin direction correlation, from results from our work it indicates that stars and gas correlates should also correlate with Lagrangian spin direction. The importance of our paper means to start new research studies on the angular momentum connection.
+We modified the last part of the introduction clearer — “Recent hydrodynamic galaxy formation simulations suggest that, although uncorrelated in amplitude, the spin directions of stellar, cold gas components and CDM halo are strongly correlated (e.g. section 4.2 of \citep{2018arXiv180407306J}).”
+
+
+
+Intermediate comments:
+
+The authors argue that the spin of a galaxy changes very modestly with
+distance, so they relate halo spin to galaxy spin. However, this can
+not be true in galaxies clusters, where different galaxies inside the
+cluster will have different angular momentum. The authors should
+explain how this measurement will be done in practice. They should
+also explain how they will deal with satellites galaxies.
+
+>> Answer:
+Thanks for this comment. 1804.07306 uses only zoom-in simulations and lower mass halos. In ref \citep{2016MNRAS.460.3772S} they use cosmological simulations and found that the central galaxy, DM halo and the distribution of satellite galaxies are aligned with their minor axis of their moments of inertia. The minor axis of the moment of inertia is an indicator of spin axis, however this requires further studies. Related to our work, in clusters most galaxies are elliptical which we are not considering. Only 1% of galaxies are in clusters, so it is not a major effect.
+In the last part of the introduction we added “ In galaxy clusters, central galaxies and satellites are also found to be aligned with halos \citep{2016MNRAS.460.3772S}.”
+And, in the first paragraph of discussion, we added “For galaxy clusters, the correlation between minor axes in \cite{2016MNRAS.460.3772S} also implies the correlation between spins. After all, however, since most galaxies are not in clusters so the contribution of clusters is not a major effect.”
+Our paper is not trying to prove the applicability, but to propose that there is a new neutrino observable.  And we have proven that there is a new observable that has not been considered before. Most proposed neutrino observables are not ‘proven’ to work, not even CMB lensing (also because of baryon feedback).  The importance of the paper is that it is completely new, and is meant to start new research studies on the angular momentum connection.
+
+
+
+The authors state that “A decayed tidal field is hard to torque small
+and round objects, so the spin are expected to be contributed mostly
+in the linear regime”. While I agree with this statement, I think the
+authors can not neglect the contribution of non-linear and baryonic
+effects, that although are expected to be small, so is the signal from
+neutrinos. The authors write that CDM and baryons are torqued by the
+same gravitational shear, such as the spin direction is not affected
+by baryonic effects. I agree with the authors for halos, but not for
+individual galaxies, where AGN feedback, dynamic friction…etc can
+potentially affect the galaxy properties.
+
+>> Answer:
+We agree and try to describe in the text more clearly.
+Firstly, “A decayed tidal field is hard to torque small and round objects, so the spin are expected to be contributed mostly in the linear regime” is to physically and qualitatively explain why the halo spin between Lagrangian space, Eulerian space and tidal torque theory is as high as 0.8, and we rewrote the CDM-baryon relations in the next paragraph separately, as —
+“In Lagrangian space, CDM and baryonic matter are torqued by the same gravitational shear, so their subsequent local evolution should not systematically change their respective spin directions. For example, baryonic feedback has to conserve angular momentum, unless the baryons are expelled from the galaxy and carry angular momentum away systematically. The dynamical friction between baryons and dark matter can only increase the angular momentum correlation. These all indicate a high correlation between CDM and baryons (e.g. \citep{2018arXiv180407306J}).”
+
+
+
+I agree with the authors that neutrinos should contribute to the total
+angular momentum of a halo by a predictable amount. However, I think
+the Lagrangian region enclosing the neutrinos that end up in the halo
+will be very large, due to the neutrinos thermal velocities. How do
+the authors deal with that?
+
+>> Answer:
+Yes. We agree. Since initially only neutrinos have large velocity dispersion, not CDM and baryons, so the Lagrangian region for neutrinos (enclosed in the final halo region) is very large, while CDM and baryons should be equivalent. Note that the neutrinos enclosed in the halo region are not necessarily gravitationally bound and they do not evolve with CDM and baryons, so their spin (indeed very small) should not contribute to the CDM halo and baryons. Even considering it, the neutrino faction is small, and the spin is small, so it is a second order effect. The effect neutrino tides torques the CDM+baryon inertia is what we consider.
+We rewrote the sentence as — “Massive neutrinos contribute sub-percent fraction of the matter ingredient, and their unique spatial distribution and evolution should contribute a unique torque to CDM and baryons.”
+
+
+
+Small comments:
+
+Introduction: update neutrino constraints from Planck 2018
+
+>> Answer: Thanks. We updated it.
+
+
+
+When the authors mention: “In the cosmic structure formation,
+neutrinos are non-relativistic”, they should state that this is a low
+redshift, not at high-redshift, were neutrinos are relativistic.
+
+>> Answer: Thanks. We modify the sentence as — “At low redshifts, neutrinos become non-relativistic, and contribute to…”
+
+
+
+I do not agree with the authors that a clean observable is the effect
+of neutrinos on the weak lensing power spectrum. There are a large set
+of systematics that affect these observations, and from the theory
+side it is still unclear the contamination by baryonic effects.
+
+>> Answer: We agree with it. We modify the sentence as — “For example, although the neutrino effect on weak lensing power spectrum \citep{2011arXiv1110.3193L} uses pure gravity, there are a large set of systematics affecting the observations and unclear baryonic effects that can contaminate the neutrino signal.”
+
+
+
+>> Thank you again for all the comments and suggestions. All the modified parts in the paper are marked with blue text.
+Authors
