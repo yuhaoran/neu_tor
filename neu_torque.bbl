@@ -27,10 +27,25 @@ D.~{Eisenstein} and {DESI Collaboration},
 S.~{Mao}, H.~J. {Mo}, and S.~D.~M. {White},
 \newblock \mnras {\bf 297}, L71 (1998).
 
-\bibitem{wiki:Galaxy_rotation_curve}
-Wikipedia,
-\newblock {Galaxy rotation curve} --- {W}ikipedia{,} the free encyclopedia,
-  2018.
+\bibitem{2001ARA&A..39..137S}
+Y.~{Sofue} and V.~{Rubin},
+\newblock Annual Review of Astronomy and Astrophysics {\bf 39}, 137 (2001).
+
+\bibitem{2010MNRAS.404.1137B}
+P.~{Bett}, V.~{Eke}, C.~S. {Frenk}, A.~{Jenkins}, and T.~{Okamoto},
+\newblock \mnras {\bf 404}, 1137 (2010), 0906.2785.
+
+\bibitem{2010MNRAS.405..274H}
+O.~{Hahn}, R.~{Teyssier}, and C.~M. {Carollo},
+\newblock \mnras {\bf 405}, 274 (2010), 1002.1964.
+
+\bibitem{2011MNRAS.415.2607D}
+A.~J. {Deason} {\em et~al.},
+\newblock \mnras {\bf 415}, 2607 (2011), 1101.0816.
+
+\bibitem{2015ApJ...812...29T}
+A.~F. {Teklu} {\em et~al.},
+\newblock \apj {\bf 812}, 29 (2015), 1503.03501.
 
 \bibitem{2018arXiv180407306J}
 F.~{Jiang} {\em et~al.},
@@ -64,6 +79,10 @@ J.~{Lee} and U.-L. {Pen},
 H.-M. {Zhu}, Y.~{Yu}, U.-L. {Pen}, X.~{Chen}, and H.-R. {Yu},
 \newblock \prd {\bf 96}, 123502 (2017).
 
+\bibitem{2018arXiv180706381W}
+X.~{Wang} and U.-L. {Pen},
+\newblock arXiv e-prints , arXiv:1807.06381 (2018), 1807.06381.
+
 \bibitem{2017MNRAS.469.1968P}
 Q.~{Pan}, U.-L. {Pen}, D.~{Inman}, and H.-R. {Yu},
 \newblock \mnras {\bf 469}, 1968 (2017), 1611.10013.
@@ -83,14 +102,6 @@ H.-R. {Yu}, U.-L. {Pen}, and X.~{Wang},
 \bibitem{2012MNRAS.420.2551B}
 S.~{Bird}, M.~{Viel}, and M.~G. {Haehnelt},
 \newblock \mnras {\bf 420}, 2551 (2012), 1109.4416.
-
-\bibitem{2016MNRAS.460.3772S}
-S.~{Shao} {\em et~al.},
-\newblock \mnras {\bf 460}, 3772 (2016), 1605.01728.
-
-\bibitem{2017NatAs...1E.143Y}
-H.-R. {Yu} {\em et~al.},
-\newblock Nature Astronomy {\bf 1}, 0143 (2017).
 
 \bibitem{2017RAA....17...85E}
 J.~D. {Emberson} {\em et~al.},
@@ -112,5 +123,25 @@ M.~A. {Zwaan} {\em et~al.},
 \bibitem{2016PhRvD..93k3002D}
 G.~{Dvali} and L.~{Funcke},
 \newblock \prd {\bf 93}, 113002 (2016).
+
+\bibitem{2014PhRvL.113m1301Z}
+H.-M. {Zhu}, U.-L. {Pen}, X.~{Chen}, D.~{Inman}, and Y.~{Yu},
+\newblock \prl {\bf 113}, 131301 (2014), 1311.3422.
+
+\bibitem{2016PhRvL.116n1301Z}
+H.-M. {Zhu}, U.-L. {Pen}, X.~{Chen}, and D.~{Inman},
+\newblock \prl {\bf 116}, 141301 (2016), 1412.1660.
+
+\bibitem{2017NatAs...1E.143Y}
+H.-R. {Yu} {\em et~al.},
+\newblock Nature Astronomy {\bf 1}, 0143 (2017).
+
+\bibitem{2017PhRvD..95h3518I}
+D.~{Inman} {\em et~al.},
+\newblock \prd {\bf 95}, 083518 (2017).
+
+\bibitem{2019PhRvL.122d1302C}
+C.-T. {Chiang}, M.~{LoVerde}, and F.~{Villaescusa-Navarro},
+\newblock \prl {\bf 122}, 041302 (2019), 1811.12412.
 
 \end{thebibliography}
